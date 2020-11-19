@@ -34,3 +34,8 @@ k3s_become_for_all: true
 k3s_no_traefik: true
 
 kubeconfig: ~/.kube/k3s
+
+# Cilium Configuration
+k3s_no_flannel: true
+k3s_flannel_backend: none
+k3s_disable_network_policy: true
